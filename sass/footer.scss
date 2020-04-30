@@ -1,0 +1,19 @@
+@import "./var.scss";
+@import "./mixins.scss";
+
+footer{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    // padding-top: 5%;
+        a{
+            text-align: center;
+            font-size: 23px;
+            text-decoration: none !important;
+            outline: none;
+            color: $black;
+
+            &:hover{
+                color: #000000;
+            }
+        }
+}

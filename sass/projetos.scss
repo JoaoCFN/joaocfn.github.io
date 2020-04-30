@@ -1,0 +1,52 @@
+@import "./var.scss";
+@import "./mixins.scss";
+
+.projetos{
+    a{
+        text-decoration: none;
+        outline: none;
+    }
+    h2{
+        text-align: center;
+        font-size: 40px;
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        color: $black;
+    }
+    h1{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        color: $black;
+        text-align: center;
+    }
+
+    p{
+        font-size: 23px;
+        font-family: 'Roboto', sans-serif;
+        color: $black;
+        text-align: justify;
+    }
+ 
+    .tecnologias{
+        display: inline-block;
+        color: $black;
+        border-color: $black;
+        border-width: 1px;
+        text-align: center;
+    }
+    
+    .princais_projetos{
+        height: auto;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 6px 16px 2px;
+        transition: 1s;
+        border-width: 0px;
+
+        &:hover{
+            box-shadow: rgba(0, 0, 0, 0.8) 0px 6px 16px 2px;
+            transform: translate(0px, -20px); 
+        }
+    }
+    
+}

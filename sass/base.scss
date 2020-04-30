@@ -1,0 +1,16 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+#intro{
+    background: url("midia/back.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.sombra {
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
