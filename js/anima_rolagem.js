@@ -39,8 +39,6 @@
         let elemento = event.target;
         // pego do atributo desse elemento 
         let id = elemento.getAttribute("href");
-        console.log(elemento)
-        console.log(id)
         // // o queryselector é usando para capturar o elemento que possui o id especificado na variável id
         // // offsetTop retorna a altura do elemento com esse id em relação ao topo da página
         let to = document.querySelector(id).offsetTop ;
