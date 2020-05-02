@@ -49,16 +49,11 @@ const debounce = function(func, wait, immediate) {
         elementos.forEach(item => {        
             if((altura_scroll) > item.offsetTop){
                 animacao.startAnimate(item);
-            }     
-            else{
-                // animacao.setAnimationRight(item, 100);
-                // animacao.setAnimationDown(item, 100);
-            }         
+            }            
         })
     }
 
-    window.addEventListener("scroll", debounce(function name() {
-        console.log("ativou")
+    window.addEventListener("scroll", debounce(function ativa_animacao_scroll() {
         anima_scroll()  
     }, 100));
 
